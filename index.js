@@ -141,7 +141,7 @@ $(function() {
 
         console.log($('#coit-vol').offset().top);
         // If tower's labels are visible, scroll them with the tower
-        if ($('#coit-vol').offset().top != 0 && ($('#coit-vol').offset().top < 780 && event.deltaY < 0) || ($('#coit-vol').offset().top > 540  && event.deltaY > 0)) {
+        if ($('#coit-vol').offset().top != 0 && ($('#coit-vol').offset().top < 710 && event.deltaY < 0) || ($('#coit-vol').offset().top > 470  && event.deltaY > 0)) {
             console.log(`${$('#coit-vol').offset().top - (event.deltaY)}px`);
             $('#coit-vol').css('top', `${$('#coit-vol').offset().top - (event.deltaY * 0.16)}px`);
             $('#coit-diam').css('top', `${$('#coit-diam').offset().top - (event.deltaY * 0.16)}px`);
